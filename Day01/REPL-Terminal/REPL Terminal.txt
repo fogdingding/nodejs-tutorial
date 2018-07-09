@@ -1,0 +1,15 @@
+REPL Read - Eval - Print - Loop
+執行的時候，會先進行讀取，然後執行，在顯示出來，最後繼續等待需要執行的程式。
+like REPL.jpg
+
+REPL commands
+.break - Sometimes you get stuck, this gets you out
+.clear - Break, and also clear the local context
+.exit - Close the I/O stream, causing the REPL to exit.
+.help - Show this list of special commands.
+.save - Save the current REPL session to a file:> .save ./file/to/save.js
+.load - Load a file into the current REPL session.> .load ./file/to/load.js
+.editor - Enter editor mode (<ctrl>-D to finish, 
+
+該commands 也可以簡單執行程式，例如 打入 ".help" 則會出現他所能夠處理的功能。
+like REPL-help.jpg

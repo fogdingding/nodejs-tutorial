@@ -1,0 +1,29 @@
+當我們在共同開發的時候，我們常會使用到相同的功能，這時我們就能模組化，讓一個功能只要寫一隻程式即可。
+
+//假設現在我有一隻程式叫做 showCircleArea.js
+
+-----------------------------------------
+showCircleArea.js
+
+const area = (r) => Math.PI * r * r;
+module.exports = area;
+-------------------------------------------
+
+**********************************************
+
+
+另一隻程式叫做 index.js
+-----------------------------------------
+index.js
+
+var area = require('./showCircleArea.js');
+console.log(area(100));
+-----------------------------------------
+
+這樣我就能在index.js 透過呼叫(import)-showCircleArea.js，並且使用裡面的函數 area去進行運算。
+
+這邊有一個小重點就是 
+
+1.require('./showCircleArea'); >> 找不到showCircleArea 就會去找 showCircleArea.js
+2.require('./showCircleArea.js');
+3.require('showCircleArea.js'); >>則會直接去找NPM底下的管理套件。

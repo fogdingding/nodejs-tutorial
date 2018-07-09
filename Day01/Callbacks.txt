@@ -1,0 +1,26 @@
+Callback is an asynchronous equivalent for a function.
+
+使用以下範例來解釋，如果正常來說，JAVA會這樣寫。
+
+// JAVA
+
+Scanner in = new Scanner(new FileReader("filename.txt"));  
+System.out.print(in.toString());
+...(other operation)
+
+--------------------------------------------------
+
+// javascript
+
+fs.readFile('filename.txt', function (err, data) {
+   console.log(data.toString());
+});
+
+...(other operation)
+
+-------------------------------------------------
+
+如果我們以讀取檔案在印出作為範例。
+在07行執行的時候，會進行讀取檔案，但可能檔案太大的時候就會等待10秒多，才會進行下一行。
+
+而我們的JS，15行則會先進行讀取檔案，然後直接先進行下一行程式碼，等到讀取完成，就會執行15行後半段的function的部分。
