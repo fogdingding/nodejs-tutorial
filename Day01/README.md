@@ -48,28 +48,11 @@ npm uninstall [options]
 **Cmder is a software package created out of pure frustration over the absence of nice console emulators on Windows. It is based on amazing software, and spiced up with the Monokai color scheme and a custom prompt layout, looking sexy from the start.**
 
 ----
-### 其他的就列點吧
+### 主要參考為~
 
 + [參考網站-概念解說PPT](https://hackmd.io/p/HJLDexl9x#/)
 + [參考網站-概念解說影片](https://www.youtube.com/watch?v=5bnABCa1qEs)
 + [參考網站-code範例程式碼](https://github.com/chnbohwr/nodejs_tut)
-
-1. [REPL Terminal]()
-2. [NPM]()
-3. [Callbacks]()
-4. [Event]()
-5. [File System]()
-6. [http]()
-7. [https]()
-8. [Cluster]()
-9. [Module]()
-10. [net]()
-11. [concole 印出...]()
-12. [crypto 加密]()
-13. [Url 結構化找出information]()
-14. [Zlib 壓縮]()
-15. [Child Process 執行系統指令]()
-
 
 
 
