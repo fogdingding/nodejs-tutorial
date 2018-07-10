@@ -6,8 +6,8 @@
 
 2. 主要為NPM以及其他小玩意兒[day1](https://github.com/fogdingding/nodejs-tutorial/tree/master/Day01)
 
-3.模仿的開始[day2](https://github.com/fogdingding/nodejs-tutorial/tree/master/Day02)
+3. 模仿的開始[day2](https://github.com/fogdingding/nodejs-tutorial/tree/master/Day02)
 
-4.撰寫一點小玩意兒[day3](https://github.com/fogdingding/nodejs-tutorial/tree/master/Day03)
+4. 撰寫一點小玩意兒[day3](https://github.com/fogdingding/nodejs-tutorial/tree/master/Day03)
 
-5.該學習一下後端了[day4](https://github.com/fogdingding/nodejs-tutorial/tree/master/Day04)
+5. 該學習一下後端了[day4](https://github.com/fogdingding/nodejs-tutorial/tree/master/Day04)
